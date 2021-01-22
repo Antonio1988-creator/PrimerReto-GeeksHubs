@@ -1,0 +1,205 @@
+body {
+    background: rgba(0, 0, 0, 0.808);
+    
+}
+
+/* Cabecera */
+
+#header-eldisparoportada {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    position: fixed;
+    top:0%;
+    left: 20%;
+    right: 20%;
+}
+
+#header-eldisparo {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    top:0%;
+    left: 20%;
+    right: 20%;
+}
+
+h1 a{
+    display: block;
+    text-shadow: 1px 2px crimson;
+    color: black;
+    font-size: 2em;
+    max-width: 100%;
+    text-align:center
+}
+
+h1 a:active {
+    background-image: url(bang1.jpg);
+    background-size: 50% 50%;
+    padding: 10em;
+    max-width: 100%;
+}
+
+h1 a:hover {
+    color: coral;
+}
+
+/* Titulares */
+
+h2 {
+    color:crimson;
+    text-shadow: 1px 1px black;
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    background: rgb(89, 89, 197);
+    color: blanchedalmond;
+    text-shadow: 1px 2px crimson;
+    margin-top: 1em;
+}
+
+.headerinfo {
+    background: crimson;
+    text-shadow: 1px 2px rgb(89, 89, 197);
+}
+
+/* Navegadores y enlaces */
+
+li {
+    background: rgb(89, 89, 197);
+    padding: 0.1em;
+    font-size: 1.5em;
+    margin: 0.1em;
+    display: inline-block;
+}
+
+b {
+    font-weight:bolder;
+}
+
+.navegador-portada {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background:rgb(89, 89, 197);
+    margin:4%;
+}
+
+.navegador-general {
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    top: 21%;
+    left: 0%;
+    width: 7em;
+    padding:1em;
+
+}
+
+.elemnav:nth-child(4)
+ {
+    background: crimson;
+}
+
+.navegador-contenido {
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    bottom: 11%;
+    left: 0%;
+    width: 7em;
+    padding:1em;
+}
+
+.navegador-contenido .elemnavg {
+    background: crimson;
+}
+
+.elemnavg:nth-child(4) {
+    background: rgb(89, 89, 197);
+}
+
+.elemnav:hover, .elemnavg:hover {
+    background: coral;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#pegatina {
+    background: red;
+    color: white;
+    font-size: 1.5em;
+    width: 6em;
+    text-align: center;
+    padding: 1em;
+    border-radius: 6em;
+    position: fixed;
+    bottom:2em;
+    transform:rotate(15deg)
+}
+
+#pegatina:hover, .elemnavnov:hover {
+    background: coral;
+}
+
+/* Imágenes */
+
+#pictureportada {
+    display: flex;
+    justify-content: center;
+    height: 50em;
+    margin-top: 1vw;
+}
+
+picture .bala {
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+/* Contenido principal y footer */
+
+main .sectionsec, main article, #contenidoinfo {
+    display:inline-block;
+    color: blanchedalmond;
+    font-size: 1em;
+    margin-left: 8em;
+    margin-top: 4%;
+}
+
+form {
+    display: grid;
+    grid-template-rows: 10% 10% 20%;
+    gap: 0.2em;
+}
+
+.elemform {
+    background-color: rgb(89, 89, 197);
+    color: blanchedalmond;
+    text-shadow: 1px 2px crimson;
+    text-align: center;
+    padding: 1em;
+}
+
+.elemform + [type="button"]{
+    background: crimson;
+    color: blanchedalmond;
+    text-shadow: 1px  2px rgb(89, 89, 197);
+}
+
+.elemform + [type="button"]:hover {
+    background: coral;
+}
+
+footer {
+    color: rgb(89, 89, 197);
+    display: block;
+    text-align: center;
+    margin: 1em;
+}
