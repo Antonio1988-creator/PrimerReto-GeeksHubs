@@ -175,7 +175,7 @@ main .sectionsec, main article, #contenidoinfo {
 
 form {
     display: grid;
-    grid-template-rows: 10% 10% 20%;
+    grid-template-rows: 11% 11% 21%;
     gap: 0.2em;
 }
 
@@ -184,7 +184,7 @@ form {
     color: blanchedalmond;
     text-shadow: 1px 2px crimson;
     text-align: center;
-    padding: 1em;
+    padding: 0.05em;
 }
 
 .elemform + [type="button"]{
