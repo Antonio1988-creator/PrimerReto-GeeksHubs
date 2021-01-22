@@ -70,7 +70,7 @@ h3 {
 li {
     background: rgb(89, 89, 197);
     padding: 0.1em;
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 0.1em;
     display: inline-block;
 }
@@ -91,7 +91,7 @@ b {
     display: flex;
     flex-direction: column;
     position:fixed;
-    top: 21%;
+    top: 19%;
     left: 0%;
     width: 7em;
     padding:1em;
@@ -107,7 +107,7 @@ b {
     display: flex;
     flex-direction: column;
     position:fixed;
-    bottom: 11%;
+    bottom: 4%;
     left: 0%;
     width: 7em;
     padding:1em;
