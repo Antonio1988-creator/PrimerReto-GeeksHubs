@@ -70,9 +70,17 @@ h3 {
 li {
     background: rgb(89, 89, 197);
     padding: 0.1em;
-    font-size: 1em;
+    font-size: 1.4em;
     margin: 0.1em;
     display: inline-block;
+    border-radius: 1em;
+    text-align: center;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: black;
 }
 
 b {
@@ -95,11 +103,9 @@ b {
     left: 0%;
     width: 7em;
     padding:1em;
-
 }
 
-.elemnav:nth-child(4)
- {
+.elemnav-info:nth-last-child(-n+2) {
     background: crimson;
 }
 
@@ -107,29 +113,25 @@ b {
     display: flex;
     flex-direction: column;
     position:fixed;
-    bottom: 4%;
+    top: 19%;
     left: 0%;
     width: 7em;
     padding:1em;
+
 }
 
-.navegador-contenido .elemnavg {
+.navegador-contenido .elemnav {
     background: crimson;
 }
 
-.elemnavg:nth-child(4) {
+.elemnav:nth-last-child(-n+2){
     background: rgb(89, 89, 197);
 }
 
-.elemnav:hover, .elemnavg:hover {
+.elemnav-info:hover, .elemnav:hover {
     background: coral;
 }
 
-a {
-    display: block;
-    text-decoration: none;
-    color: black;
-}
 
 #pegatina {
     background: red;
