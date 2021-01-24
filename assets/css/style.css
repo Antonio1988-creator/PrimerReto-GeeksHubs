@@ -34,7 +34,7 @@ h1 a{
 }
 
 h1 a:active {
-    background-image: url(bang1.jpg);
+    background-image: url(../images/bang1.jpg);
     background-size: 50% 50%;
     padding: 10em;
     max-width: 100%;
